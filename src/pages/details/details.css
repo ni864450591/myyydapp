@@ -1,0 +1,22 @@
+.details-layout{
+    height: 100%;
+    /* 加上y方向的滚动条 */
+    overflow-y: auto;
+    padding-bottom: 45px; 
+    background-color: white;
+    }
+.header-layout{
+    width: 100%;
+    height: 54px;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+
+/* .header-layout .wordbox {
+  }  */
+.info-layout,
+.footer-layout{
+    background-color: white;
+}

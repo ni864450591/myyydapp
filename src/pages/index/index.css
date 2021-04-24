@@ -1,0 +1,34 @@
+.index-layout{
+    height: 100%;
+    /* 加上y方向的滚动条 */
+    overflow-y: auto;
+    /* 空出精选折扣最下面的部分 */
+    padding-bottom: 48px; 
+    }
+.header-layout{
+    width: 100%;
+    height: 54px;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+ /* 350/375   */
+.header-layout .searchbox {
+   width: 89.333333%;
+  } 
+  
+.slider-layout,
+.nav-layout,
+.product-layout{
+    background-color: white;
+}
+
+.slider-layout .loading,
+.nav-layout .loading,
+.product-layout .loading {
+  padding: 60px 0;
+}
+.nav-layout{
+    margin-bottom: 10px;
+}

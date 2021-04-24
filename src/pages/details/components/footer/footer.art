@@ -1,0 +1,15 @@
+<div class="footer">
+    <div class="zxsc">
+        <div class='item '>
+           <i class="iconfont icon-service"></i>
+           <span class="text">咨询</span>
+        </div>
+        <div class="item">
+            <i class="iconfont icon-collect"></i>
+            <span class="text">收藏</span>
+        </div>
+    </div>
+    <div class="ljyd">
+        立即预定
+    </div>
+</div>

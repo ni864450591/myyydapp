@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>慕云游商城-首页</title>
+</head>
+<body>
+    <div class="index-layout" id="index-page">
+        <!-- header -->
+        <div class="header-layout" id="index-header">
+           {{include './components/header/header.art'}}
+        </div>
+        <!-- slider -->
+        <div class="sider-layout" id="index-slider">
+            {{include '../../components/loading/loading.art'}} 
+        </div>
+       
+        <!-- nav -->
+        <div class="nav-layout" id="index-nav">
+              {{include '../../components/loading/loading.art'}} 
+        </div>
+       
+        <!-- product -->
+         <div class="product-layout" id="index-product">
+            {{include './components/product/product.art'}}
+         </div> 
+        <!-- tabbar -->
+        <div class="tabbar-layout">
+             <% include('../../components/tabbar/tabbar.art', { active: 'index' }) %>
+        </div> 
+        <!-- backtop -->
+        <div class="backtop-layout">
+            {{include '../../components/backtop/backtop.art'}}
+        </div> 
+</body>
+</html>

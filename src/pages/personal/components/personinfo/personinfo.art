@@ -1,0 +1,10 @@
+<div class="personinfo">
+    <div class="personinfo-bg-wrap">
+        <img src="./images/bg.png"  alt="bg" class="personinfo-bg">
+    </div>
+    <img src="./images/portrait.png" alt="tx" class="personinfo-img">
+    <div class="content">
+        <div class="personinfo-name">王豆豆</div>
+        <div class="personinfo-tel">18911023266</div>
+    </div>
+</div>

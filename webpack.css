@@ -1,0 +1,38 @@
+/* webpack：前端打包
+重点在于配置和使用，已经是一个成熟的工具
+基本配置
+高级配置
+优化打包效率
+优化产出代码
+构建流程概述
+babel
+
+一、webpack基本配置
+1、拆分配置和merge  
+2、启动本地服务  dev-serve
+3、处理ES6  babel-loader 变成ES5
+4、处理css文件  css-loader  style-loader  识别css文件  然后再将style插入html中，从右到左  post-loader 兼容性问题的考虑
+5、处理图片   file-loader   url-loader  
+6、模块化  
+
+
+二、webpack高级配置
+1、基本配置只能做demo，不能做线上项目
+2、多入口：entry  output   plugins
+3、抽离css文件，压缩
+4、抽离公共代码和第三方代码
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */

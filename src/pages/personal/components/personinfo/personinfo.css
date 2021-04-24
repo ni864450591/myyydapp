@@ -1,0 +1,41 @@
+.personinfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding-bottom: 30%;
+    justify-content: center;
+    position: relative;
+}
+.personinfo-bg-wrap{
+    height: 0;
+    width: 100%;
+    padding-bottom: 39.73%;
+}
+.personinfo-bg{
+ width: 100%;
+}
+
+/* 这里不能完成适配 */
+.personinfo-img{
+    z-index:999;
+    position: absolute;
+    width:50%;
+    top:20%;
+}
+.content{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+.personinfo-name{
+    margin-top:100px;
+    font-size: 20px;
+    color: #203152;
+    margin-bottom: 2px;
+}
+.personinfo-tel{
+    font-size: 14px;
+    color: #7C8698;
+}

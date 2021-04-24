@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    height: 50px;
+    padding: 5px 10px 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.zxsc{
+    display: flex;
+}
+.item{
+    border: 1px solid #BF2A2F;
+    border-radius: 3px; 
+    height: 34px;
+    width:76px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 34px;
+   font-size:18px;
+    color:#BF2A2F;
+    font-weight: bold;
+}
+.ljyd{
+    width: 120px;
+    height: 34px;
+    background: #BF2A2F;
+    border: 1px solid #BF2A2F;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 18px;
+    color: #FFFFFF;
+}

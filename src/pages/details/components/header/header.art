@@ -1,0 +1,11 @@
+<div class="header">
+    <div class="left">
+    <a href="/index.html">
+       <i class="iconfont icon-back" id="back"></i>
+    </a>
+    </div>
+    <div class="right">
+        <i class="iconfont icon-collect"></i>
+        <i class="iconfont icon-fun"></i>
+    </div>
+</div>

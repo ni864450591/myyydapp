@@ -1,0 +1,32 @@
+<ul class="setmanage">
+    <li class="setmanage-item">
+        <a href="javascript:;" class="setmanage-link">
+            <span class="setmanage-text">我的行程计划</span>
+            <i class="iconfont icon-right"></i>
+        </a>
+    </li>
+    <li class="setmanage-item">
+        <a href="javascript:;" class="setmanage-link">
+            <span class="setmanage-text">我的收藏</span>
+            <i class="iconfont icon-right"></i>
+        </a>
+    </li>
+    <li class="setmanage-item">
+        <a href="javascript:;" class="setmanage-link">
+            <span class="setmanage-text">售后于客服</span>
+            <i class="iconfont icon-right"></i>
+        </a>
+    </li>
+    <li class="setmanage-item">
+        <a href="javascript:;" class="setmanage-link">
+            <span class="setmanage-text">我的优惠劵</span>
+            <i class="iconfont icon-right"></i>
+        </a>
+    </li>
+    <li class="setmanage-item">
+        <a href="javascript:;" class="setmanage-link">
+            <span class="setmanage-text">常用旅客管理</span>
+            <i class="iconfont icon-right"></i>
+        </a>
+    </li>
+</ul>

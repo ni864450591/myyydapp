@@ -1,0 +1,40 @@
+    <div class="info-bg">
+        <img src="{{$data.img}}" alt="" class="info-img">
+    </div>
+    <div class="info-description">
+        <div class="info-title">
+        {{$data.title}}
+        </div>
+        <div class="info-notice">
+        {{each $data.tags}}
+            <div class="info-item">{{$value}}</div>
+        {{/each}}
+        </div>
+        <div class="info-tags">
+            <div class="info-tags-item">浏览 {{$data.vistor_counts}}</div>
+            <div class="info-tags-item">已售 {{$data.sold_counts}}</div>
+        </div>
+    </div>
+</div>
+
+<div class="recommends">
+    <div class="recommends-item">
+        <h2 class="recommends-title">产品简介</h2>
+        <div class="recommends-descirtion">
+        {{each $data.intros}}
+            <p>{{$value}}</p>
+        {{/each}}
+        </div>
+    </div>  
+    <div class="recommends-item">
+        <h2 class="recommends-title">预定流程</h2>
+        <div class="recommends-descirtion">
+            <img src="./images/lc.png" alt="" class="recommends-img">
+        </div>
+    </div>
+    <div class="recommends-item">
+        <h2 class="recommends-title">退款流程</h2>
+        <div class="recommends-descirtion">
+            <p>{{$data.refund}}</p>
+        </div>
+    </div>

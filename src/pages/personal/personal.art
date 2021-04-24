@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>慕云游商城--个人主页</title>
+</head>
+<body>
+    <div class="personal-layout" id="personal-page">
+        <div class="personinfo-layout" >
+         {{include './components/personinfo/personinfo.art'}}
+        </div>
+        <div class="setmanage-layout">
+        {{include './components/setmanage/setmanage.art'}}
+        </div>
+        <div class="tabbar-layout">
+             <% include('../../components/tabbar/tabbar.art', { active:
+                'personal'}) %>
+        </div> 
+        
+    </div>
+</body>
+</html>

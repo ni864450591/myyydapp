@@ -1,0 +1,3 @@
+<div class="info">
+   {{include '../../../../components/loading/loading.art'}}
+</div>

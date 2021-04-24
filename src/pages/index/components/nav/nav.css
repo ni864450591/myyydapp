@@ -1,0 +1,22 @@
+.nav{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20.5px 0;
+}
+.nav-item{
+    width:25%;
+    margin-bottom: 20.5px;
+}
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #999;
+    font-size: 12px;
+}
+.nav-img{
+    width: 46.933333%;
+    margin-bottom: 5.5px;
+}
